@@ -894,8 +894,7 @@ nav ul li a:hover {
 
     .blog-hero {
         padding: 20px 10px;
-        margin-bottom: 100px;
-        margin-top: 40px;
+        margin: 40px 10px 100px 10px;
     }
 
     .blog-hero h1 {
@@ -903,7 +902,7 @@ nav ul li a:hover {
     }
 
     .about-hero {
-        margin-bottom: 0px;
+        /* margin: 0px ; */
         padding: 20px 10px;
     }
     .about-content,
