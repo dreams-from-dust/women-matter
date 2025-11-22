@@ -341,14 +341,14 @@ nav ul li a:hover {
 /* ===== Blog Section ===== */
 .blog-section {
     padding: 0 0 80px;
+    margin: 0px;
     background-color: var(--color-primary-light);
-    padding-top: 0;
 }
 
 .blog-hero {
     background-color: var(--color-card-bg);
-    padding: 60px 40px;
-    margin-bottom: 50px;
+    padding: 60px;
+    margin-bottom: 100px;
     text-align: center;
     border-bottom: 1px solid var(--color-border-light);
 }
@@ -462,8 +462,8 @@ nav ul li a:hover {
 /* ===== Page Hero ===== */
 .page-hero {
     background-color: var(--color-card-bg);
-    padding: 60px 40px 40px;
-    margin-bottom: 50px;
+    padding: 60px;
+    margin-bottom: 100px;
     text-align: center;
     border-bottom: 1px solid var(--color-border-light);
 }
@@ -549,15 +549,16 @@ nav ul li a:hover {
 
 /* ===== START: Modernized Contact Section Styles & Coloring ===== */
 .contact-section {
-    padding-bottom: 80px;
     background-color: var(--color-primary-light);
+    padding-bottom: 80px;
     /* Deep Charcoal background */
 }
 
 .contact-section .page-hero {
     background-color: transparent;
     border-bottom: none;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
 .contact-section .page-hero h1 {
@@ -721,7 +722,6 @@ nav ul li a:hover {
     box-shadow: 0 6px 16px rgba(83, 51, 51, 0.3);
 }
 
-/* ===== END: Modernized Contact Section Styles & Coloring ===== */
 
 /* ===== Footer Update (Color & Separation) ===== */
 .footer {
@@ -864,7 +864,7 @@ nav ul li a:hover {
     }
 
     .latest-updates-section {
-        padding: 40px 20px;
+        padding: 20px 10px;
     }
 
     .section-title {
@@ -887,29 +887,40 @@ nav ul li a:hover {
         top: auto;
         height: auto;
     }
+    .sidebar-widget{
+        margin-bottom: 10px;
+    }
 
     .blog-hero {
-        padding: 40px 20px;
-        margin-bottom: 20px;
+        padding: 20px 10px;
+        margin-bottom: 100px;
+        margin-top: 40px;
     }
 
     .blog-hero h1 {
         font-size: 2em;
     }
 
+    .about-hero {
+        margin-bottom: 0px;
+        padding: 20px 10px;
+    }
     .about-content,
     .contact-section {
-        padding: 50px 20px;
+        padding: 20px 10px;
     }
 
     .about-content .container {
         padding: 0;
     }
+    .contact-section .page-hero {
+    padding: 20px;
+    margin-bottom: 40px;
+}
 
     .contact-cards-grid {
         flex-direction: column;
         gap: 20px;
-        margin-bottom: 30px;
     }
 
     .contact-main-content {
@@ -917,11 +928,11 @@ nav ul li a:hover {
     }
 
     .contact-form-wrapper {
-        padding: 30px;
+        padding: 20px;
     }
 
     .page-hero {
-        padding: 40px 20px;
+        padding: 20px 10px;
     }
 }
 
