@@ -1,92 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Women Matters - Celebrating Women's Achievements in Pakistan</title>
-    <meta name="description" content="A single-page website celebrating and highlighting the remarkable achievements of women in Pakistan across various fields">
-    <meta name="keywords" content="women in Pakistan, women achievements, Pakistani women leaders, women empowerment, single-page">
-    <meta property="og:title" content="Women Matters - Celebrating Women's Achievements in Pakistan">
-    <meta property="og:description" content="Celebrating and highlighting the remarkable achievements of women in Pakistan">
-    <meta name="twitter:title" content="Women Matters - Celebrating Women's Achievements in Pakistan">
-    <meta name="twitter:description" content="Celebrating and highlighting the remarkable achievements of women in Pakistan">
-    <link rel="stylesheet" href="style.css">
+    <title>Women Matters - Igniting Change</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">Women Matters</div>
-            <nav class="navbar">
-                <ul class="nav-menu">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#blogs" class="dropdown-toggle">Blogs</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#technology">Technology</a></li>
-                            <li><a href="#sports">Sports</a></li>
-                            <li><a href="#arts">Arts & Culture</a></li>
-                            <li><a href="#leadership">Leadership</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <header class="main-header">
+        <div class="logo">Women Matters</div>
+        <nav>
+            <ul>
+                <li><a href="#top">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#blogs" class="dropdown-toggle">Blogs</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#sports">Sports</a></li>
+                        <li><a href="#arts">Arts & Culture</a></li>
+                        <li><a href="#leadership">Leadership</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="slider" id="home">
-        <div class="slides">
-            <div class="slide slide-1">
-                <div class="slide-content">
-                    <h1>Empowering Women in Pakistan</h1>
-                    <p>Celebrating achievements and inspiring the next generation</p>
-                </div>
-            </div>
-            <div class="slide slide-2">
-                <div class="slide-content">
-                    <h1>Breaking Barriers Together</h1>
-                    <p>Stories of courage, determination, and success</p>
-                </div>
-            </div>
-            <div class="slide slide-3">
-                <div class="slide-content">
-                    <h1>Inspiring Future Leaders</h1>
-                    <p>Highlighting remarkable achievements across Pakistan</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main class="hero-section" id="top">
 
-    <section class="featured-section">
-        <div class="container">
-            <h2 class="section-title">Featured Stories</h2>
-            <div class="featured-grid">
-                <div class="featured-card">
-                    <div class="featured-image1">
-                        <img src="images/feartured1.jpg" alt="Education Leaders">
+        <div class="hero-content">
+            <h1 class="main-title">Igniting Change for Women</h1>
+
+            <div class="cta-box">
+                <p>Empowered women empower women.</p>
+                <a href="#contact" class="join-us-button">Join Us</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image-container">
+            <img class="slider-picture active" src="images/slider-img1.jpg" alt="Woman 1 working">
+            <img class="slider-picture" src="images/slider-img2.jpg" alt="Woman 2 smiling">
+            <img class="slider-picture" src="images/slider-img3.jpg" alt="Woman 3 discussing">
+        </div>
+
+    </main>
+
+    <section class="latest-updates-section" id="article-previews">
+        <div class="updates-container">
+            <h2 class="section-title">Latest Updates</h2>
+
+            <div class="articles-grid">
+
+                <article class="article-card" id="education-preview">
+                    <div class="image-area">
+                        <img src="images/featured1.jpg" alt="Woman reading a book in a library">
                     </div>
-                    <h3>Education Leaders</h3>
-                    <p>Discover how Pakistani women are transforming education and literacy rates across the nation.</p>
-                    <a href="#education" class="read-more">Read More</a>
-                </div>
-                <div class="featured-card">
-                    <div class="featured-image2">
-                        <img src="images/featured2.jpg" alt="Tech Pioneers">
+                    <p class="article-meta">5 hours ago</p>
+                    <h3 class="article-heading">Empowered Women: Trailblazing Achievements in Pakistan</h3>
+                    <p class="article-excerpt">
+                        In a world where gender equality is still a work in progress, discover the inspiring stories of
+                        women in Pakistan making global strides.
+                    </p>
+                    <a href="#education" class="read-more-button">Read More</a>
+                </article>
+
+                <article class="article-card" id="leadership-preview">
+                    <div class="image-area">
+                        <img src="images/featured2.jpg" alt="Woman standing confidently in a library">
                     </div>
-                    <h3>Tech Pioneers</h3>
-                    <p>Meet the women leading innovation in Pakistan's growing technology sector.</p>
-                    <a href="#technology" class="read-more">Read More</a>
-                </div>
-                <div class="featured-card">
-                    <div class="featured-image3">
-                        <img src="images/featured3.jpg" alt="Champions in Sports">
+                    <p class="article-meta">13 hours ago</p>
+                    <h3 class="article-heading">Spotlight on Women: Breaking Barriers and Stereotypes</h3>
+                    <p class="article-excerpt">
+                        Women have long faced barriers and stereotypes that challenge their success. We highlight those
+                        who are redefining the narrative.
+                    </p>
+                    <a href="#leadership" class="read-more-button">Read More</a>
+                </article>
+
+                <article class="article-card" id="arts-preview">
+                    <div class="image-area">
+                        <img src="images/featured3.jpg" alt="Bright yellow and orange flowers in a field">
                     </div>
-                    <h3>Champions in Sports</h3>
-                    <p>Celebrating female athletes who are bringing glory to Pakistan on international stages.</p>
-                    <a href="#sports" class="read-more">Read More</a>
-                </div>
+                    <p class="article-meta">15 hours ago</p>
+                    <h3 class="article-heading">Celebrating Women Leaders: Inspiring Success Stories</h3>
+                    <p class="article-excerpt">
+                        Women have always played a crucial role in shaping society. Read about the leaders who are
+                        making history today.
+                    </p>
+                    <a href="#arts" class="read-more-button">Read More</a>
+                </article>
+
             </div>
         </div>
     </section>
@@ -95,7 +109,7 @@
         <div class="blog-hero">
             <div class="container">
                 <h1>Our Blogs</h1>
-                <p>Stories of courage, determination, and success</p>
+                <p>Detailed stories of courage, determination, and success</p>
             </div>
         </div>
         <div class="blog-container">
@@ -104,9 +118,15 @@
                     <h2>Breaking Barriers in Education</h2>
                     <p class="blog-meta">Category: Education | Date: October 15, 2025</p>
                     <div class="blog-content">
-                        <p>Pakistani women are making remarkable strides in the field of education, breaking centuries-old barriers and paving the way for future generations. From rural areas to urban centers, women educators are transforming the landscape of learning.</p>
-                        <p>Organizations led by women are working tirelessly to improve literacy rates, especially in underserved communities. These initiatives focus on providing quality education to girls who previously had limited or no access to schools.</p>
-                        <p>The impact of these efforts is visible in the increasing number of female students pursuing higher education and professional degrees, proving that when given opportunity, Pakistani women excel in every field.</p>
+                        <p>Pakistani women are making remarkable strides in the field of education, breaking
+                            centuries-old barriers and paving the way for future generations. From rural areas to urban
+                            centers, women educators are transforming the landscape of learning.</p>
+                        <p>Organizations led by women are working tirelessly to improve literacy rates, especially in
+                            underserved communities. These initiatives focus on providing quality education to girls who
+                            previously had limited or no access to schools.</p>
+                        <p>The impact of these efforts is visible in the increasing number of female students pursuing
+                            higher education and professional degrees, proving that when given opportunity, Pakistani
+                            women excel in every field.</p>
                     </div>
                 </article>
 
@@ -114,9 +134,14 @@
                     <h2>Tech Pioneers Leading Innovation</h2>
                     <p class="blog-meta">Category: Technology | Date: October 10, 2025</p>
                     <div class="blog-content">
-                        <p>Pakistan's technology sector is witnessing a revolution led by talented women who are breaking stereotypes and creating innovative solutions. From software development to artificial intelligence, women are at the forefront of technological advancement.</p>
-                        <p>Female entrepreneurs are launching successful tech startups, creating employment opportunities, and contributing significantly to the digital economy. These trailblazers are mentoring the next generation and building a more inclusive tech community.</p>
-                        <p>Their achievements demonstrate that technology knows no gender boundaries, and Pakistani women are ready to compete on the global stage.</p>
+                        <p>Pakistan's technology sector is witnessing a revolution led by talented women who are
+                            breaking stereotypes and creating innovative solutions. From software development to
+                            artificial intelligence, women are at the forefront of technological advancement.</p>
+                        <p>Female entrepreneurs are launching successful tech startups, creating employment
+                            opportunities, and contributing significantly to the digital economy. These trailblazers are
+                            mentoring the next generation and building a more inclusive tech community.</p>
+                        <p>Their achievements demonstrate that technology knows no gender boundaries, and Pakistani
+                            women are ready to compete on the global stage.</p>
                     </div>
                 </article>
 
@@ -124,9 +149,14 @@
                     <h2>Champions in Sports</h2>
                     <p class="blog-meta">Category: Sports | Date: October 5, 2025</p>
                     <div class="blog-content">
-                        <p>Pakistani female athletes are breaking records and bringing international recognition to the country. From cricket to squash, from athletics to martial arts, women are excelling in diverse sports disciplines.</p>
-                        <p>Despite facing numerous challenges, these athletes have shown extraordinary determination and resilience. Their victories on international platforms have inspired countless young girls to pursue their sporting dreams.</p>
-                        <p>The growing support for women's sports in Pakistan is creating a positive environment where female athletes can thrive and represent the nation with pride.</p>
+                        <p>Pakistani female athletes are breaking records and bringing international recognition to the
+                            country. From cricket to squash, from athletics to martial arts, women are excelling in
+                            diverse sports disciplines.</p>
+                        <p>Despite facing numerous challenges, these athletes have shown extraordinary determination and
+                            resilience. Their victories on international platforms have inspired countless young girls
+                            to pursue their sporting dreams.</p>
+                        <p>The growing support for women's sports in Pakistan is creating a positive environment where
+                            female athletes can thrive and represent the nation with pride.</p>
                     </div>
                 </article>
 
@@ -134,9 +164,14 @@
                     <h2>Celebrating Arts and Culture</h2>
                     <p class="blog-meta">Category: Arts & Culture | Date: September 28, 2025</p>
                     <div class="blog-content">
-                        <p>Pakistani women are enriching the cultural landscape through their contributions to arts, literature, music, and film. Female artists, writers, and performers are gaining recognition both nationally and internationally.</p>
-                        <p>From traditional crafts to contemporary art forms, women are preserving cultural heritage while also pushing creative boundaries. Their work reflects the diverse experiences and perspectives of Pakistani society.</p>
-                        <p>These cultural ambassadors are showcasing Pakistan's rich artistic traditions to the world and creating opportunities for the next generation of creative talent.</p>
+                        <p>Pakistani women are enriching the cultural landscape through their contributions to arts,
+                            literature, music, and film. Female artists, writers, and performers are gaining recognition
+                            both nationally and internationally.</p>
+                        <p>From traditional crafts to contemporary art forms, women are preserving cultural heritage
+                            while also pushing creative boundaries. Their work reflects the diverse experiences and
+                            perspectives of Pakistani society.</p>
+                        <p>These cultural ambassadors are showcasing Pakistan's rich artistic traditions to the world
+                            and creating opportunities for the next generation of creative talent.</p>
                     </div>
                 </article>
 
@@ -144,9 +179,14 @@
                     <h2>Women in Leadership Roles</h2>
                     <p class="blog-meta">Category: Leadership | Date: September 20, 2025</p>
                     <div class="blog-content">
-                        <p>Pakistani women are increasingly taking on leadership positions in government, business, and civil society. Their leadership is bringing fresh perspectives and driving positive change across various sectors.</p>
-                        <p>From corporate boardrooms to political offices, women leaders are making crucial decisions that shape the nation's future. They are advocating for policies that promote equality, education, and economic empowerment.</p>
-                        <p>These leaders serve as role models, proving that Pakistani women have the capability and vision to lead at the highest levels.</p>
+                        <p>Pakistani women are increasingly taking on leadership positions in government, business, and
+                            civil society. Their leadership is bringing fresh perspectives and driving positive change
+                            across various sectors.</p>
+                        <p>From corporate boardrooms to political offices, women leaders are making crucial decisions
+                            that shape the nation's future. They are advocating for policies that promote equality,
+                            education, and economic empowerment.</p>
+                        <p>These leaders serve as role models, proving that Pakistani women have the capability and
+                            vision to lead at the highest levels.</p>
                     </div>
                 </article>
             </main>
@@ -174,6 +214,7 @@
         </div>
     </section>
 
+
     <section class="about-content" id="about">
         <div class="page-hero">
             <div class="container">
@@ -184,79 +225,77 @@
         <div class="container">
             <div class="about-section">
                 <h2>Our Mission</h2>
-                <p>Women Matters is dedicated to celebrating and highlighting the remarkable achievements of women in Pakistan. We believe in the power of storytelling to inspire change and create awareness about the significant contributions women make to society.</p>
-                <p>Our platform serves as a voice for women across all fields - from education and technology to sports and arts. We aim to showcase their journeys, challenges, and triumphs to inspire the next generation of female leaders.</p>
+                <p>Women Matters is dedicated to celebrating and highlighting the remarkable achievements of women in
+                    Pakistan. We believe in the power of storytelling to inspire change and create awareness about the
+                    significant contributions women make to society.</p>
+                <p>Our platform serves as a voice for women across all fields - from education and technology to sports
+                    and arts. We aim to showcase their journeys, challenges, and triumphs to inspire the next generation
+                    of female leaders.</p>
             </div>
 
-            <div class="about-section">
-                <h2>Our Vision</h2>
-                <p>We envision a Pakistan where every woman's achievement is recognized and celebrated, where barriers to success are removed, and where young girls can dream without limitations.</p>
-                <p>Through our blogs and stories, we strive to create a supportive community that empowers women, encourages dialogue, and drives positive social change.</p>
-            </div>
-
-            <div class="about-section">
-                <h2>What We Do</h2>
+            <div class="about-section" style="margin-top: 30px;">
+                <h2>Core Values</h2>
                 <ul class="about-list">
-                    <li>Share inspiring stories of successful Pakistani women</li>
-                    <li>Highlight achievements across various sectors</li>
-                    <li>Provide a platform for women's voices</li>
-                    <li>Promote gender equality and empowerment</li>
-                    <li>Connect and build a supportive community</li>
+                    <li><b>Empowerment:</b> Fostering independence and self belief.</li>
+                    <li><b>Integrity:</b> Maintaining honesty and strong moral principles.</li>
+                    <li><b>Inclusion:</b> Ensuring every woman's voice is heard and respected.</li>
+                    <li><b>Excellence:</b> Striving for the highest quality in all our content.</li>
                 </ul>
             </div>
         </div>
     </section>
-    
+
+
     <section class="contact-section" id="contact">
         <div class="page-hero">
             <div class="container">
-                <h1>Contact Us</h1>
-                <p>We'd love to hear from you</p>
+                <h1>Get in Touch</h1>
+                <p>We'd love to hear from you. Reach out through the following channels or send us a message.</p>
             </div>
         </div>
-        <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2>Get in Touch</h2>
-                    <p>Have a story to share? Want to contribute to our platform? Or just want to connect with us? Feel free to reach out!</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <h3>Email</h3>
-                            <p>contact@womenmatters.pk</p>
-                        </div>
-                        <div class="contact-item">
-                            <h3>Phone</h3>
-                            <p>+92 XXX XXXXXXX</p>
-                        </div>
-                        <div class="contact-item">
-                            <h3>Address</h3>
-                            <p>Layyah, Pakistan</p>
-                        </div>
-                    </div>
+        <div class="contact-main-content">
+            <div class="contact-cards-grid">
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope contact-icon"></i>
+                    <h3>Email Us</h3>
+                    <p>Send us your general inquiries.</p>
+                    <a href="mailto:info@womenmatters.pk" class="contact-value">info@womenmatters.pk</a>
                 </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone-volume contact-icon"></i>
+                    <h3>Call Us</h3>
+                    <p>Contact our support line.</p>
+                    <span class="contact-value">+92 51 555 1234</span>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot contact-icon"></i>
+                    <h3>Our Office</h3>
+                    <p>Find us in the land of Achievements</p>
+                    <span class="contact-value">Layyah, Pakistan</span>
+                </div>
+            </div>
 
-                <div class="contact-form-wrapper">
-                    <h2>Send us a Message</h2>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
+            <div class="contact-form-wrapper">
+                <h2>Send a Message to Our Editors</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Expert Message</button>
+                </form>
             </div>
         </div>
     </section>
@@ -283,5 +322,24 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Targeting the simplified image tags with the class .slider-picture
+        const images = document.querySelectorAll('.slider-picture');
+        let currentIndex = 0;
+
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(showNextImage, 5000);
+
+        if (images.length > 0) {
+            images[0].classList.add('active');
+        }
+    </script>
 </body>
+
 </html>
